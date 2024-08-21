@@ -1,4 +1,4 @@
-# ImGuiMenu's
+# ImGuiMenu's, menu's are not mine, and all credits go to them not me.
 
 ## 1.rar: 
 ![image](https://github.com/Ch1nChun/ImGuiMenu-s/assets/90413853/7129a5e9-4099-4209-af36-f7430b96510b)
