@@ -1,0 +1,15 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+C:\Users\Karolis\Documents\GitHub\ImGuiMenu-s\10\imgui.cpp(5510,10): error C1083: Cannot open include file: 'D:\Users\Admin\Desktop\menu\examples\example_win32_directx11\menu.h': No such file or directory
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+C:\Users\Karolis\Documents\GitHub\ImGuiMenu-s\10\imgui_widgets.cpp(1853,15): warning C4189: 'bg_col': local variable is initialized but not referenced
+C:\Users\Karolis\Documents\GitHub\ImGuiMenu-s\10\imgui_widgets.cpp(1854,15): warning C4189: 'text_col': local variable is initialized but not referenced
+C:\Users\Karolis\Documents\GitHub\ImGuiMenu-s\10\imgui_widgets.cpp(3136,10): error C1083: Cannot open include file: '../menu/examples/example_win32_directx11/menu.h': No such file or directory
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  main.cpp
+C:\Users\Karolis\Documents\GitHub\ImGuiMenu-s\10\examples\example_win32_directx11\main.cpp(18,10): error C1083: Cannot open include file: 'D3DX11.h': No such file or directory
+  menu.cpp
+  Generating Code...

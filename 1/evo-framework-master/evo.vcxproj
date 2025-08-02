@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3a9a7f52-1ad1-4bb4-a5c7-d493a719efa0}</ProjectGuid>
+    <RootNamespace>evo</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>.\out</OutDir>
+    <IntDir>.\.vs\intermediate</IntDir>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\karol\Desktop\evo-framework-master\core\thirdparty\freetype\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\karol\Desktop\evo-framework-master\core\thirdparty\freetype\include;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\karol\Desktop\evo-framework-master\core\thirdparty\freetype\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\karol\Desktop\evo-framework-master\core\thirdparty\freetype\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Users\dutu\Desktop\evo\core\thirdparty\imgui\freetype\objs;$(LibraryPath)</LibraryPath>
+    <OutDir>.\out</OutDir>
+    <IntDir>.\.vs\intermediate</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\karol\Desktop\evo-framework-master\core\thirdparty\freetype\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\karol\Desktop\evo-framework-master\core\thirdparty\freetype\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Users\dutu\Desktop\evo\core\thirdparty\imgui\freetype\objs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\karol\Desktop\evo-framework-master\core\thirdparty\freetype\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\karol\Desktop\evo-framework-master\core\thirdparty\freetype\include;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/ignore:4099 /ignore:4098 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="core\evo-core\main.cpp" />
+    <ClCompile Include="core\evo-sdk\animation_system\animation_system.cpp" />
+    <ClCompile Include="core\thirdparty\imgui\imgui.cpp" />
+    <ClCompile Include="core\thirdparty\imgui\imgui_draw.cpp" />
+    <ClCompile Include="core\thirdparty\imgui\imgui_freetype.cpp" />
+    <ClCompile Include="core\thirdparty\imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="core\thirdparty\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="core\thirdparty\imgui\imgui_tables.cpp" />
+    <ClCompile Include="core\thirdparty\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="core\evo-sdk\render\render_system.cpp" />
+    <ClCompile Include="core\ui\container\container.cpp" />
+    <ClCompile Include="core\ui\controls\button\button.cpp" />
+    <ClCompile Include="core\ui\controls\checkbox\checkbox.cpp" />
+    <ClCompile Include="core\ui\controls\child\child.cpp" />
+    <ClCompile Include="core\ui\controls\colorpicker\colorpicker.cpp" />
+    <ClCompile Include="core\ui\controls\combo\combo.cpp" />
+    <ClCompile Include="core\ui\controls\esp_preview\esp_preview.cpp" />
+    <ClCompile Include="core\ui\controls\keybind\keybind.cpp" />
+    <ClCompile Include="core\ui\controls\listbox\listbox.cpp" />
+    <ClCompile Include="core\ui\controls\multicombo\multicombo.cpp" />
+    <ClCompile Include="core\ui\controls\popup\popup.cpp" />
+    <ClCompile Include="core\ui\controls\slider\slider.cpp" />
+    <ClCompile Include="core\ui\controls\textinput\textinput.cpp" />
+    <ClCompile Include="core\ui\controls\text\text.cpp" />
+    <ClCompile Include="core\ui\controls\window\window.cpp" />
+    <ClCompile Include="core\ui\menu\menu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\evo-sdk\animation_system\animation_system.hpp" />
+    <ClInclude Include="core\evo-sdk\input_system\input_system.hpp" />
+    <ClInclude Include="core\evo-sdk\render\fonts.hpp" />
+    <ClInclude Include="core\evo-sdk\sdk\sdk.hpp" />
+    <ClInclude Include="core\inc.hpp" />
+    <ClInclude Include="core\thirdparty\imgui\imconfig.h" />
+    <ClInclude Include="core\thirdparty\imgui\imgui.h" />
+    <ClInclude Include="core\thirdparty\imgui\imgui_freetype.h" />
+    <ClInclude Include="core\thirdparty\imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="core\thirdparty\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="core\thirdparty\imgui\imgui_internal.h" />
+    <ClInclude Include="core\thirdparty\imgui\imstb_rectpack.h" />
+    <ClInclude Include="core\thirdparty\imgui\imstb_textedit.h" />
+    <ClInclude Include="core\thirdparty\imgui\imstb_truetype.h" />
+    <ClInclude Include="core\evo-sdk\render\render_system.hpp" />
+    <ClInclude Include="core\ui\container\container.hpp" />
+    <ClInclude Include="core\ui\controls\button\button.hpp" />
+    <ClInclude Include="core\ui\controls\checkbox\checkbox.hpp" />
+    <ClInclude Include="core\ui\controls\child\child.hpp" />
+    <ClInclude Include="core\ui\controls\colorpicker\colorpicker.hpp" />
+    <ClInclude Include="core\ui\controls\combo\combo.hpp" />
+    <ClInclude Include="core\ui\controls\esp_preview\esp_preview.hpp" />
+    <ClInclude Include="core\ui\controls\keybind\keybind.hpp" />
+    <ClInclude Include="core\ui\controls\listbox\listbox.hpp" />
+    <ClInclude Include="core\ui\controls\multicombo\multicombo.hpp" />
+    <ClInclude Include="core\ui\controls\popup\popup.hpp" />
+    <ClInclude Include="core\ui\controls\slider\slider.hpp" />
+    <ClInclude Include="core\ui\controls\textinput\textinput.hpp" />
+    <ClInclude Include="core\ui\controls\text\text.hpp" />
+    <ClInclude Include="core\ui\controls\window\window.hpp" />
+    <ClInclude Include="core\ui\menu\menu.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

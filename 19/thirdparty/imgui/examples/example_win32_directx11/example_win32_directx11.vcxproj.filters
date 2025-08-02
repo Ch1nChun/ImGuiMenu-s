@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{21a0a482-0600-4642-a57a-1191d68e5c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{06dd3e36-ccd1-41cc-be77-70f830a7b3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="settings">
+      <UniqueIdentifier>{59b498f4-c195-431c-aaaa-e12856d78fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functional">
+      <UniqueIdentifier>{e7eb24d1-8e07-478e-8ad7-96baf1298221}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\data\font.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\data\texture.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\settings\functions.h">
+      <Filter>settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\settings\variables.h">
+      <Filter>settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\shader\blur.hpp">
+      <Filter>shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\shader\pshader.hpp">
+      <Filter>shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\settings\settings.h">
+      <Filter>settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\data\imgui_freetype.h">
+      <Filter>data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\gui.cc">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\custom_draw.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\base_elements.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\begin.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\esp_preview.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\begin_child.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\drag_slider.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\data\imgui_freetype.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\checkbox.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\dropdown.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\keybind.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\notifications.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\color_picker.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\textfield.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\button.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\selection.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\lua.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\text_editor.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\functional\config.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\misc\debuggers\imgui.natstepfilter">
+      <Filter>imgui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\freetype\win64\freetype.lib">
+      <Filter>data</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
