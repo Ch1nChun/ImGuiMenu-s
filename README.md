@@ -20,7 +20,7 @@
 ## 9.rar:
 ![image](https://github.com/Ch1nChun/ImGuiMenu-s/assets/90413853/ee3813ae-51ec-485b-aa0e-4e1d11f90590)
 ## 10.rar:
-![image](https://github.com/Ch1nChun/ImGuiMenu-s/assets/90413853/27f3a110-0a47-43fe-ac90-513202b7e0b2)
+<img width="712" height="560" alt="1718969104426" src="https://github.com/user-attachments/assets/d03a5cc4-7097-4e5e-b38f-3a8563f639db" />
 ## 11.rar:
 ![image](https://github.com/Ch1nChun/ImGuiMenu-s/assets/90413853/9fc74929-ad00-45d5-8773-b12916906c1f)
 ## 12.rar:
@@ -38,7 +38,7 @@
 ## 18.rar:
 ![image](https://github.com/user-attachments/assets/a00bd134-44c7-488b-8609-f7bfc125951a)
 ## 19.rar:
-
+<img width="1920" height="1080" alt="Group_266" src="https://github.com/user-attachments/assets/54816e21-4237-4a6c-b438-50137eb5b3f5" />
 ## 20.rar:
 ![image](https://github.com/user-attachments/assets/6c328e64-5695-484c-a925-31319cea4ac2)
 ## 21.rar:
