@@ -28,11 +28,13 @@ This repository contains a collection of various ImGui menu designs sourced from
 | **21.rar** | ![21.rar](https://github.com/user-attachments/assets/39568e12-8069-4a7f-81d0-c23d0a2fba74)                                            |
 | **22.rar** | ![22.rar](https://github.com/user-attachments/assets/12de6ad7-417a-471b-af4a-9bc36fdc2cd3)                                            |
 
-## Credits:
+## Credits
 
-1.rar : Original creator - Dutu // https://yougame.biz/members/539492/
-3.rar, 4.rar : Original creator - enqdesign
-5.rar, 6.rar : Original creator - Byman
-11.rar, 12.rar, 17.rar : Original creator - evrope
-21.rar : Original creator - yzs / @d0td on Discord  // thanks for pointing out @prophetxv
-22.rar : Original creator - takegui
+- **1.rar** – Original creator: [Dutu](https://yougame.biz/members/539492/)
+- **3.rar, 4.rar** – Original creator: enqdesign
+- **5.rar, 6.rar** – Original creator: Byman
+- **11.rar, 12.rar, 17.rar** – Original creator: evrope
+- **21.rar** – Original creator: yzs / @d0td on Discord  
+  *Thanks for pointing out: @prophetxv*
+- **22.rar** – Original creator: takegui
+
