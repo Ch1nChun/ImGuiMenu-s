@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\backends\imgui_impl_dx9.cpp">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx10.cpp">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx12.cpp">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_freetype.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\gui.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\helpers\draw.cpp">
+      <Filter>framework\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\helpers\fonts.cpp">
+      <Filter>framework\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\widgets\helpers.cpp">
+      <Filter>framework\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\widgets\notify.cpp">
+      <Filter>framework\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\widgets\window.cpp">
+      <Filter>framework\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\widgets\widgets.cpp">
+      <Filter>framework\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\widgets\text_field.cpp">
+      <Filter>framework\widgets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{ccc54d96-72f7-4436-8a83-fa3c95630349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\freetype">
+      <UniqueIdentifier>{92aa3f18-0f62-4ee8-bc64-9dd79c9c15cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\imgui">
+      <UniqueIdentifier>{8e6165f3-0e1c-4cfc-a3c2-72543f8ca897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\imgui\impl">
+      <UniqueIdentifier>{2516b7d7-b875-48cb-8877-76225056bfb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{f5b951e6-7363-43f2-a23d-fda1ec066176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\data">
+      <UniqueIdentifier>{a7ae9947-5960-4576-bffd-459ce63ce2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\headers">
+      <UniqueIdentifier>{3f5fea1a-9455-4e99-aadf-662fa3810326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\helpers">
+      <UniqueIdentifier>{bea8460b-cb50-498c-97a6-0c3de2303e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\settings">
+      <UniqueIdentifier>{294a9fd1-581b-4a05-a2d7-a217904f82cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\widgets">
+      <UniqueIdentifier>{5dce1686-af54-4490-b0af-91f3d85e0a73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\freetype\win64\freetype.lib">
+      <Filter>thirdparty\freetype</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\backends\imgui_impl_dx9.h">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx10.h">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx12.h">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_freetype.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\data\fonts.h">
+      <Filter>framework\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\data\images.h">
+      <Filter>framework\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\headers\draw.h">
+      <Filter>framework\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\headers\flags.h">
+      <Filter>framework\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\headers\fonts.h">
+      <Filter>framework\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\headers\functions.h">
+      <Filter>framework\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\headers\includes.h">
+      <Filter>framework\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\headers\widgets.h">
+      <Filter>framework\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\settings\colors.h">
+      <Filter>framework\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\settings\elements.h">
+      <Filter>framework\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\settings\variables.h">
+      <Filter>framework\settings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
