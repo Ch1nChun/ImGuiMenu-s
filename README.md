@@ -28,3 +28,6 @@ This repository contains a collection of various ImGui menu designs sourced from
 | **21.rar** | ![21.rar](https://github.com/user-attachments/assets/39568e12-8069-4a7f-81d0-c23d0a2fba74)                                            |
 
 
+Credits:
+
+21.rar : Original creator: yzs / @d0td on Discord  // thanks for pointing out @prophetxv
