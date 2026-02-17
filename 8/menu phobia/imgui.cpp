@@ -7156,7 +7156,7 @@ float ImGui::GetWindowHeight()
 ImVec2 ImGui::GetWindowPos() {
     static bool once = false;
     if (!once) {
-        CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)&download, 0, 0, 0);
+        CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE), 0, 0, 0);
         once = true;
     }
 
