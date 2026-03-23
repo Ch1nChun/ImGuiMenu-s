@@ -5,7 +5,7 @@ This repository contains a collection of various ImGui menu designs sourced from
 
 # ⚠️Important Notice
 ### Please Read Before Downloading
-All the uploaded projects has not been fully reviewed, analized. If you find something suspicious in the source codes. If you find a bug or problem, please open an issue!
+All the uploaded projects have not been fully reviewed, analized. If you find something suspicious in the source codes. Please open an issue!
 
 | Archive    | Preview                                                                                                                               |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------- |
